@@ -97,15 +97,11 @@
           }
         },
         "lint": {
-          "builder": "@angular-devkit/build-angular:tslint",
+          "builder": "@angular-eslint/builder:lint",
           "options": {
-            "tsConfig": [
-              "tsconfig.app.json",
-              "tsconfig.spec.json",
-              "e2e/tsconfig.json"
-            ],
-            "exclude": [
-              "**/node_modules/**"
+            "lintFilePatterns": [
+              "src/**/*.ts",
+              "src/**/*.html"
             ]
           }
         },
@@ -124,5 +120,8 @@
       }
     }
   },
-  "defaultProject": "angular11-conversor-de-moedas"
+  "defaultProject": "angular11-conversor-de-moedas",
+  "cli": {
+    "analytics": "998956ae-4d00-4d27-aad7-a53c8892f47f"
+  }
 }
