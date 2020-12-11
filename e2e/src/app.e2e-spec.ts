@@ -10,7 +10,7 @@ describe('workspace-project App', () => {
 
   it('should display welcome message', async () => {
     await page.navigateTo();
-    expect(await page.getTitleText()).toEqual('angular11-conversor-de-moedas app is running!');
+    expect(await page.getTitleText()).toEqual('angular11-components-de-moedas app is running!');
   });
 
   afterEach(async () => {

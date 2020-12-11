@@ -23,13 +23,13 @@ describe('AppComponent', () => {
   it(`should have as title 'angular11-conversor-de-moedas'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('angular11-conversor-de-moedas');
+    expect(app.title).toEqual('angular11-components-de-moedas');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('angular11-conversor-de-moedas app is running!');
+    expect(compiled.querySelector('.content span').textContent).toContain('angular11-components-de-moedas app is running!');
   });
 });

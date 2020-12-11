@@ -25,7 +25,7 @@ module.exports = function (config) {
       suppressAll: true // removes the duplicated traces
     },
     coverageReporter: {
-      dir: require('path').join(__dirname, './coverage/angular11-conversor-de-moedas'),
+      dir: require('path').join(__dirname, './coverage/angular11-components-de-moedas'),
       subdir: '.',
       reporters: [
         { type: 'html' },
